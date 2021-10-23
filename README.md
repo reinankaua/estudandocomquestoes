@@ -2,12 +2,18 @@
 
 
 ### Justificativa
-Nos aproveitamos esse clima pré-ENEM e decidimos desenvolver uma aplicação que podesse ajudar estudantes nesse processo preparátorio
+Nós aproveitamos esse clima pré-ENEM e decidimos desenvolver uma aplicação que pudesse ajudar estudantes nesse processo preparatório
+
 
 ### Descrição do produto
-Alguma coisa aqui
+
+
+O produto final cotemplara para estudantes uma plataforma para estudo por meio de questões de ENEM/vestibulares passados, onde o usuário podera interagir com a plataforma por meio da validação das questões.
+
 
 ### Especificação do papel de cada membro
-* Desenvolvedor 1 - Ficando responsavel pelo desenvolvimento do aplicação`@reinankauaoliveirademorais`;
-* Desenvolvedor 2 - Ficando responsavel pelo code review da aplicação `@gustavosilvadantas`;
-* Pesquisadora 1 - Ficando reponsavel pela busca de conteudos que serão disponibilizados na aplicação `@shirleyandradesantana`;
+
+
+- Gustava Silva Dantas - Ficando responsável pelo code review da aplicação. (s2gustavinhodosilva@gmail.com);
+- Reinan Kauã Oliveira de Morais - Ficando responsável pela codificação da aplicação. (contato.reinankaua@gmail.com);
+- Shirley Andrade Santana - Ficando responsável pela busca de conteúdos que serão disponibilizados na aplicação. (shirleysantana305@gmail.com);
