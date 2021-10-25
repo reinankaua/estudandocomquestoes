@@ -44,3 +44,10 @@ html {
     text-shadow:none;
     border-radius: 15px;
 }
+.main-footer{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+    margin: 1rem;
+}
