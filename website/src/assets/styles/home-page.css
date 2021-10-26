@@ -2,16 +2,14 @@
 
 :root{
     --body-color: rgb(178, 243, 193);
-    --button-color: rgb(75, 163, 96);; 
+    --button-color: rgb(75, 163, 96);;
 }
 * {
     margin: 0;
     padding: 0;
 }
-
-
 html {
-    font-family: 'Roboto', sans-serif;  
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     background-color: var(--body-color);
 }
@@ -20,13 +18,12 @@ html {
     width: 100vw;
     height: 100vh;
 }
-.content {  
+.content {
     padding-top: 4rem;
     align-items: center;
     justify-content: center;
     display: flex;
 }
-
 .text-content {
     align-items: center;
     justify-content: center;
@@ -38,19 +35,33 @@ html {
 .subtitle {
     font-size: 1.6rem;
 }
+.content-button{
+    width: 20%;
+    background: var(--button-color);
+    height: 70px;
+    width: 280px;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    border-radius: 1rem;
+    /* padding: 0.2rem; */
+
+    margin-top: 2rem;
+}
 .button {
     background: var(--button-color);
     color: white;
     border-style: none;
 
-    height: 55px;
-    width: 155px;
-
     font-family: 'Nunito', sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     font-weight: 500;
     text-shadow:none;
-    border-radius: 1rem;
+
+    cursor: pointer;
+}
+.image-book {
+    height: 8vh;
 }
 .image-home-page {
     height: 80vh;
