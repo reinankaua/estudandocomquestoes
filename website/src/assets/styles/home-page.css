@@ -31,9 +31,13 @@ html {
 }
 .title {
     font-size: 3.6rem;
+    padding-bottom: .4rem;
 }
 .subtitle {
     font-size: 1.6rem;
+}
+.link {
+    text-decoration: none;
 }
 .content-button{
     width: 20%;
@@ -41,7 +45,7 @@ html {
     height: 70px;
     width: 280px;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     display: flex;
     border-radius: 1rem;
     /* padding: 0.2rem; */
