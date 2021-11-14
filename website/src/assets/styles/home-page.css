@@ -64,6 +64,11 @@ html {
 
     cursor: pointer;
 }
+
+.button:hover{
+    text-decoration: underline;
+}
+
 .image-book {
     height: 8vh;
 }
