@@ -2,7 +2,7 @@
 
 :root{
     --body-color: rgb(178, 243, 193);
-    --button-color: rgb(75, 163, 96);;
+    --button-color: rgb(75, 163, 96);
 }
 * {
     margin: 0;
@@ -19,10 +19,11 @@ html {
     height: 100vh;
 }
 .content {
-    padding-top: 4rem;
     align-items: center;
     justify-content: center;
     display: flex;
+
+    padding-top: 4rem;
 }
 .text-content {
     align-items: center;
