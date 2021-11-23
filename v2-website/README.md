@@ -6,8 +6,9 @@
 
 ### Web Screenshot
 <div style="display: flex; flex-direction: 'row'; align-items: 'center';">
-   <img src="img/web-landing.png" width="400px">
-   <img src="img/web-list.png" width="400px">
+   <img src="screenshots/homepage1.png" width="400px">
+   <img src="screenshots/homepage2.png" width="400px">
+
 </div>
 
 # :computer: Tecnologias
@@ -38,10 +39,10 @@ $ cd EstudandoComQuestoes/website/src/pages
 # Do the following command for linux to open file
 $ xdg-open index.html
 
-# Do the following command for windows to open file
+# Or Do the following command for windows to open file
 $ start index.html
 
-# Do the following command for mac to open file
+# Or Do the following command for mac to open file
 $ open index.html
 ```
 <!--Vá para http://localhost:3000/ para ver o resultado.-->
