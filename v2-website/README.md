@@ -1,15 +1,20 @@
 <!-- <p align="center">
-   <img src="img/logo.png" alt="Proffy" width="280"/>
+   <img src="img/logo.png" alt="" width="280"/>
 </p> -->
 
 > :rocket: Projeto desenvolvido para melhorar a performace dos vestibulandos, realizado para matérias do IFBA - Campus Euclides da Cunha 
 
-### Web Screenshot
+### Screenshots Desktop
 <div style="display: flex; flex-direction: 'row'; align-items: 'center';">
    <img src="screenshots/homepage1.png" width="400px">
    <img src="screenshots/homepage2.png" width="400px">
-
 </div>
+
+<!--- ### Screenshot Mobile
+<div style="display: flex; flex-direction: 'row'; align-items: 'center';">
+   <img src="screenshots/homepage1.png" width="400px">
+   <img src="screenshots/homepage2.png" width="400px">
+</div> -->
 
 # :computer: Tecnologias
 <ul>
@@ -24,30 +29,29 @@
 <!-- * Site para inscrição de professores e alunos.
 * App para conectar professores e alunos.-->
 
-# :construction_worker: How to run locally
+# :construction_worker:Como rodar localmente
 ```bash
-# Clone Repository
+# Clone o repositorio
 $ git clone https://github.com/reinankaua/EstudandoComQuestoes.git
 ```
 
-### Run Web Project
+### Abrindo o projeto
 
 ```bash
-# Go to website folder 
+# Va até a pasta pages
 $ cd EstudandoComQuestoes/v2-website/src/pages
 
-# Do the following command for linux to open file
+# Faça o seguinte comando para abrir o arquivo no linux
 $ xdg-open index.html
 
-# Or Do the following command for windows to open file
+
+# Faça o seguinte comando para abrir o arquivo no windows
 $ start index.html
 
-# Or Do the following command for mac to open file
+
+# Faça o seguinte comando para abrir o arquivo no mac
 $ open index.html
 ```
-<!--Vá para http://localhost:3000/ para ver o resultado.-->
-
-
 
 ---
 
