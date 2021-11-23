@@ -34,7 +34,7 @@ $ git clone https://github.com/reinankaua/EstudandoComQuestoes.git
 
 ```bash
 # Go to website folder 
-$ cd EstudandoComQuestoes/website/src/pages
+$ cd EstudandoComQuestoes/v2-website/src/pages
 
 # Do the following command for linux to open file
 $ xdg-open index.html
