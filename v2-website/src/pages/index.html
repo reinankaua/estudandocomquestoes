@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="../assets/styles/index.css">
+        <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+        <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <title>Estudando com Questões</title>
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <p>.</p>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="">INÍCIO</a></li>
+                        <li><a href="">MATÉRIAS</a></li>
+                        <li><a href="">SOBRE NÓS</a></li>
+                        <li><a href="">REPOSITORIO </a></li>       
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+   
+            <div class="text-box">
+                <h1>Estudando com<br>Questões</h1>
+                <p>Sua plataforma de estudos online.</p>
+                <a href="" class="hero-bnt">COMEÇAR ESTUDAR AGORA</a>
+            </div>
+               
+        </section>
+
+        <!-- Subjects -->
+        <section class="subject">
+            <h1>Matérias Disponiveis</h1>
+            <p>Disponibilizamos simulados que irão te ajudar evoluir.</p>
+            <div class="row">
+                <div class="subject-col">
+                    <h3>Matématica</h3>
+                    <img src="../assets/images/math-subject.svg" alt="">
+                </div>
+                <div class="subject-col">
+                    <h3>Geografia</h3>
+                    <img src="../assets/images/geography-subject.svg">
+                </div>
+                <div class="subject-col">
+                    <h3>Quimica</h3>
+                    <img src="../assets/images/cremistry-subject.svg" alt="">
+                </div>
+            </div>
+        </section>
+
+        <!-- METHODOLOGY -->
+
+        <!-- about us -->
+        <sectionc class="footer">
+            <h4>Sobre nós</h4>
+            <p class="text-about-us">Somos uma equipe de três integrantes que decidiu desenvolver uma aplicação para melhorar a performace dos vestibulandos.</p>
+            <div class="copyright">
+                <p>© 2021 - Estudando com Questões</p>
+            </div>
+        </sectionc>
+
+        <!-- JavaScript -->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+            
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+        </script>
+    </body>
+</html>
