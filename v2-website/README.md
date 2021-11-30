@@ -23,12 +23,6 @@
   <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a></li>
 </ul>
 
-# :rocket: Features
-
-* Site para interação de usuarios com a plataforma
-<!-- * Site para inscrição de professores e alunos.
-* App para conectar professores e alunos.-->
-
 # :construction_worker:Como rodar localmente
 ```bash
 # Clone o repositorio
