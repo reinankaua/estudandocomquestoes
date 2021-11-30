@@ -18,14 +18,14 @@
   <body>
     <section class="header">
       <nav>
-        <p>.</p>
+        <p id="home">.</p>
         <div class="nav-links" id="navLinks">
           <i class="fa fa-times" onclick="hideMenu()"></i>
           <ul>
-            <li><a href="">INÍCIO</a></li>
-            <li><a href="">MATÉRIAS</a></li>
-            <li><a href="">SOBRE NÓS</a></li>
-            <li><a href="">REPOSITORIO </a></li>
+            <li><a href="#home">INÍCIO</a></li>
+            <li><a href="#subject">MATÉRIAS</a></li>
+            <li><a href="#about-us">SOBRE NÓS</a></li>
+            <li><a href="#repository">REPOSITORIO </a></li>
           </ul>
         </div>
         <i class="fa fa-bars" onclick="showMenu()"></i>
@@ -39,7 +39,7 @@
     </section>
 
     <!-- Subjects -->
-    <section class="subject">
+    <section id="subject" class="subject">
       <h1>Matérias Disponiveis</h1>
       <p>Disponibilizamos simulados que irão te ajudar evoluir.</p>
       <div class="row">
@@ -61,7 +61,7 @@
     <!-- Methodology -->
 
     <!-- about us -->
-    <sectionc class="footer">
+    <sectionc id="about-us" class="footer">
       <h4>Sobre nós</h4>
       <p class="text-about-us">
         Somos uma equipe de três integrantes que decidiu desenvolver uma
