@@ -2,13 +2,14 @@
   --main-color: rgb(55, 146, 61);
   --second-color: rgb(93, 196, 96);
   --third-color: rgb(119, 221, 119);
-
   --white-color: rgb(255, 255, 255);
 
   --main-font-family: "Poppins", sans-serif;
 
   --nav-font-size: 0.8rem;
   --big-title-font-size: 3.875rem;
+
+  --default-title-font-size: 4.125rem;
   --text-font-size: 0.9rem;
 }
 
@@ -157,7 +158,7 @@ h1 {
   font-weight: 600;
 }
 p {
-  color: #777;
+  color: rgb(82, 79, 79);
   font-size: 14px;
   font-weight: 300;
   line-height: 22px;
@@ -180,7 +181,7 @@ p {
 .subject-col > img {
   max-width: 200px;
 }
-h3 {
+h2 {
   text-align: center;
   font-weight: 600;
   margin: 10px 0;
@@ -199,12 +200,13 @@ h3 {
 .footer {
   width: 100%;
   text-align: center;
-  padding: 100px 0;
+  padding: 50px 0;
 }
-.footer h4 {
+.footer h2 {
   margin-bottom: 25px;
   margin-top: 20px;
   font-weight: 600;
+  font-size: 20px;
 }
 .text-about-us {
   margin: 0 auto;
