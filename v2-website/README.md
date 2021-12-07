@@ -1,6 +1,3 @@
-<!-- <p align="center">
-   <img src="img/logo.png" alt="" width="280"/>
-</p> -->
 
 > :rocket: Projeto desenvolvido para melhorar a performace dos vestibulandos, realizado para matérias do IFBA - Campus Euclides da Cunha 
 

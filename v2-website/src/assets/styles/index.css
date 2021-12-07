@@ -164,7 +164,6 @@ p {
   font-size: 14px;
   font-weight: 300;
   line-height: 22px;
-  padding: 10px;
 }
 .row {
   margin-top: 5%;
@@ -221,4 +220,14 @@ h2 {
   justify-content: center;
   margin-top: 40px;
   margin-bottom: 10px;
+}
+.title {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.contact {
+  width: 80%;
+  padding: 0;
+  margin: auto;
+  text-align: center;
 }
