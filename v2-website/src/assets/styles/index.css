@@ -3,7 +3,7 @@
 
   --main-color: rgb(55, 146, 61);
   --second-color: rgb(93, 196, 96);
-  --third-color: rgb(119, 221, 119);
+  --third-color: #77dd77;
   --white-color: rgb(255, 255, 255);
 
   --text-color: rgb(82, 79, 79);
@@ -172,7 +172,7 @@ p {
 }
 .subject-col {
   flex-basis: 31%;
-  background: #fff3f3;
+  background: rgb(255, 243, 243);
   border-radius: 10px;
   margin-bottom: 5%;
   padding: 20px 12px;
@@ -197,6 +197,94 @@ h2 {
     flex-direction: column;
   }
 }
+
+/* form contact */
+.content{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.container{
+  max-width: 700px;
+  width: 100%;
+  background: rgb(255, 255, 255);
+  padding: 25px 30px;
+  border-radius: 5px;
+}
+.container .title{
+  font-size: 25px;
+  font-weight: 500;
+  position: relative;
+}
+
+.container .title::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 30px;
+  background: linear-gradient(135deg, rgb(55, 146, 61), rgb(93, 196, 96));
+}
+.container form .user-details{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+form .user-details .input-box{
+  margin: 20px 0 12px 0;
+  width: 100%;
+}
+.user-details .input-box .details{
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.user-details .input-box textarea,
+.user-details .input-box input{
+  height: 45px;
+  width: 97%;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid rgb(204, 204, 204);
+  padding-left: 15px;
+  font-size: 16px;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+  resize: none;
+}
+
+.user-details .input-box textarea{
+  height: 80px;
+  width: 97%;
+}
+.user-details .input-box textarea:focus,
+.user-details .input-box textarea:valid,
+.user-details .input-box input:focus,
+.user-details .input-box input:valid{
+  border-color: rgb(93, 196, 96);
+}
+form .button{
+  height: 45px;
+  margin: 45px 0;
+}
+
+form button{
+  height: 100%;
+  width: 99.7%;
+  outline: none;
+  color: rgb(255, 255, 255);
+  background: linear-gradient(135deg, rgb(55, 146, 61), rgb(93, 196, 96));
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  border-radius: 5px;
+}
+form button:hover{
+  background: linear-gradient(-135deg, rgb(55, 146, 61), rgb(93, 196, 96));
+}
+
 
 /* footer */
 .about-us {

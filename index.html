@@ -1,116 +1,130 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="A melhor plataforma para alcançar o seu objetivo academico."
-    />
-    <link rel="stylesheet" href="./v2-website/src/assets/styles/index.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
-      rel="stylesheet"
-    />
 
-    <title>Estudando com Questões</title>
-  </head>
-  <body>
-    <section id="home" class="header">
-      <nav>
-        <p>.</p>
-        <div class="nav-links" id="navLinks">
-          <img
-            class="icon"
-            src="v2-website/src/assets/images/close.svg"
-            alt="Fecha menu"
-            onclick="hideMenu()"
-          />
-          <ul>
-            <li><a href="#home">INÍCIO</a></li>
-            <li><a href="#subject">MATÉRIAS</a></li>
-            <li><a href="#about-us">SOBRE NÓS</a></li>
-            <li><a href="#contact">CONTATO </a></li>
-          </ul>
-        </div>
-        <img
-          class="icon"
-          src="v2-website/src/assets/images/menu.svg"
-          alt="Image menu"
-          onclick="showMenu()"
-        />
-      </nav>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="A melhor plataforma para alcançar o seu objetivo academico." />
+  <link rel="stylesheet" href="./v2-website/src/assets/styles/index.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+    rel="stylesheet" />
 
-      <div class="box">
-        <div class="text-box">
-          <h1>Estudando com<br />Questões</h1>
-          <p>Sua plataforma de estudos online.</p>
-          <a href="#subject" class="hero-bnt">COMEÇAR ESTUDAR AGORA</a>
-        </div>
-        <img src="v2-website/src/assets/images/image-home-page.svg" />
+  <title>Estudando com Questões</title>
+</head>
+
+<body>
+  <section id="home" class="header">
+    <nav>
+      <p>.</p>
+      <div class="nav-links" id="navLinks">
+        <img class="icon" src="v2-website/src/assets/images/close.svg" alt="Fecha menu" onclick="hideMenu()" />
+        <ul>
+          <li><a href="#home">INÍCIO</a></li>
+          <li><a href="#subject">MATÉRIAS</a></li>
+          <li><a href="#about-us">SOBRE NÓS</a></li>
+          <li><a href="#feedback">FEEDBACK</a></li>
+        </ul>
       </div>
-    </section>
+      <img class="icon" src="v2-website/src/assets/images/menu.svg" alt="Image menu" onclick="showMenu()" />
+    </nav>
 
-    <!-- subjects -->
-    <section id="subject" class="subject">
-      <h1 class="title">Matérias Disponiveis</h1>
-      <p>
-        Disponibilizamos simulados que irão te ajudar evoluir. Agora escolha a
-        materia que deseja começar estudar!
-      </p>
-      <div class="row">
-        <div class="subject-col">
-          <h2>Matématica</h2>
-          <img
-            src="./v2-website/src/assets/images/math-subject.svg"
-            alt="Image de uma pessoa estundando matematica"
-          />
-        </div>
-        <div class="subject-col">
-          <h2>Geografia</h2>
-          <img
-            src="./v2-website/src/assets/images/geography-subject.svg"
-            alt="Mapa das americas"
-          />
-        </div>
-        <div class="subject-col">
-          <h2>Quimica</h2>
-          <img
-            src="./v2-website/src/assets/images/cremistry-subject.svg"
-            alt="Image de uma quimica"
-          />
-        </div>
+    <div class="box">
+      <div class="text-box">
+        <h1>Estudando com<br />Questões</h1>
+        <p>Sua plataforma de estudos online.</p>
+        <a href="#subject" class="hero-bnt">COMEÇAR ESTUDAR AGORA</a>
       </div>
-    </section>
+      <img src="v2-website/src/assets/images/image-home-page.svg" />
+    </div>
+  </section>
 
-    <!-- about us -->
-    <sectionc id="about-us" class="about-us">
-      <h1 class="title">Sobre nós</h1>
-      <p class="text-about-us">
-        Somos uma equipe que decidiu desenvolver uma aplicação para melhorar a
-        performace dos vestibulandos.
-      </p>
-    </sectionc>
-
-    
-
-    <!-- footer -->
-    <footer>
-      <div class="copyright">
-        <p>© 2021 - Estudando com Questões</p>
+  <!-- subjects -->
+  <section id="subject" class="subject">
+    <h1 class="title">Matérias Disponiveis</h1>
+    <p>
+      Disponibilizamos simulados que irão te ajudar evoluir. Agora escolha a
+      materia que deseja começar estudar!
+    </p>
+    <div class="row">
+      <div class="subject-col">
+        <h2>Matématica</h2>
+        <img src="./v2-website/src/assets/images/math-subject.svg" alt="Image de uma pessoa estundando matematica" />
       </div>
-    </footer>
+      <div class="subject-col">
+        <h2>Geografia</h2>
+        <img src="./v2-website/src/assets/images/geography-subject.svg" alt="Mapa das americas" />
+      </div>
+      <div class="subject-col">
+        <h2>Quimica</h2>
+        <img src="./v2-website/src/assets/images/cremistry-subject.svg" alt="Image de uma quimica" />
+      </div>
+    </div>
+  </section>
 
-    <!-- JavaScript -->
-    <script>
-      var navLinks = document.getElementById("navLinks");
+  <!-- about us -->
+  <sectionc id="about-us" class="about-us">
+    <h1 class="title">Sobre nós</h1>
+    <p class="text-about-us">
+      Somos uma equipe que decidiu desenvolver uma aplicação para melhorar a
+      performace dos vestibulandos.
+    </p>
+  </sectionc>
 
-      function hideMenu() {
-        navLinks.style.right = "-200px";
-      }
+  <section id="feedback">
+    <div class="content">
+      <div class="container">
+        <div class="title">Nos deixe um feedback</div>
+        <form action="https://formsubmit.co/warzoneofc@gmail.com" method="POST">
+          <div class="user-details">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_next" value="http://127.0.0.1:5500/v2-website/src/assets/pages/success.html">
+            <!-- Aparentemente a opção de autoresponse só funciona com o captcha ativado -->
+            <input type="hidden" name="_autoresponse" value="Recebemos o seu feedback, respoderemos em breve!">
+            <input type="hidden" name="_captcha" value="false">
 
-      function showMenu() {
-        navLinks.style.right = "0";
-      }
-    </script>
-  </body>
+            <div class="input-box">
+              <span class="details">Nome</span>
+              <input type="text" name="nome" placeholder="Digite o seu nome" required>
+            </div>
+
+            <div class="input-box">
+              <span class="details">Email</span>
+              <input type="email" name="email" placeholder="Digite o seu email" required>
+            </div>
+
+            <div class="input-box">
+              <span class="details">Feedback</span>
+              <textarea name="feedback" id="" cols="30" rows="10" placeholder="Deixe aqui o seu feedback"
+                required></textarea>
+            </div>
+
+
+          </div>
+          <button class="button" type="submit">Enviar</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- footer -->
+  <footer>
+    <div class="copyright">
+      <p>© 2021 - Estudando com Questões</p>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script>
+    var navLinks = document.getElementById("navLinks");
+
+    function hideMenu() {
+      navLinks.style.right = "-200px";
+    }
+
+    function showMenu() {
+      navLinks.style.right = "0";
+    }
+  </script>
+</body>
+
 </html>
