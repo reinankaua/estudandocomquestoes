@@ -5,7 +5,7 @@ Nós aproveitamos esse clima pré-ENEM e decidimos desenvolver uma aplicação q
 
 ### Descrição do produto
 
-O produto final cotemplara para estudantes uma plataforma para estudo através de questões de ENEM/vestibulares passados, onde o usuário podera interagir com a plataforma por meio da validação das questões.
+O produto final cotemplara ao estudantes uma plataforma para estudo através de questões de ENEM/vestibulares passados, onde o usuário podera interagir com a plataforma por meio da validação das questões.
 
 ### Especificação do papel de cada membro
 
