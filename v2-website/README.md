@@ -31,7 +31,7 @@ $ git clone https://github.com/reinankaua/EstudandoComQuestoes.git
 ### Abrindo o projeto
 
 ```bash
-# Ná raiz do projeto execute os seguinte comando
+# Na raiz do projeto
 
 # Faça o seguinte comando para abrir o arquivo no linux
 $ xdg-open index.html
