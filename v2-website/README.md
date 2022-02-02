@@ -29,8 +29,7 @@ $ git clone https://github.com/reinankaua/EstudandoComQuestoes.git
 ### Abrindo o projeto
 
 ```bash
-# Va até a pasta pages
-$ cd EstudandoComQuestoes/v2-website/src/pages
+# Ná raiz do projeto execute os seguinte comando
 
 # Faça o seguinte comando para abrir o arquivo no linux
 $ xdg-open index.html
