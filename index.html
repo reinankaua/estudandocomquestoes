@@ -4,7 +4,7 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="A melhor plataforma para alcançar o seu objetivo academico." />
-  <link rel="stylesheet" href="./v2-website/src/assets/styles/index.css" />
+  <link rel="stylesheet" href="v2-website/styles/index.css" />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
     rel="stylesheet" />
 
@@ -16,7 +16,7 @@
     <nav>
       <p>.</p>
       <div class="nav-links" id="navLinks">
-        <img class="icon" src="v2-website/src/assets/images/close.svg" alt="Fecha menu" onclick="hideMenu()" />
+        <img class="icon" src="v2-website/images/close.svg" alt="Fecha menu" onclick="hideMenu()" />
         <ul>
           <li><a href="#home">INÍCIO</a></li>
           <li><a href="#subject">MATÉRIAS</a></li>
@@ -24,7 +24,7 @@
           <li><a href="#feedback">FEEDBACK</a></li>
         </ul>
       </div>
-      <img class="icon" src="v2-website/src/assets/images/menu.svg" alt="Image menu" onclick="showMenu()" />
+      <img class="icon" src="./v2-website/images/menu.svg" alt="Image menu" onclick="showMenu()" />
     </nav>
 
     <div class="box">
@@ -33,7 +33,7 @@
         <p>Sua plataforma de estudos online.</p>
         <a href="#subject" class="hero-bnt">COMEÇAR ESTUDAR AGORA</a>
       </div>
-      <img src="v2-website/src/assets/images/image-home-page.svg" />
+      <img src="v2-website/images/image-home-page.svg" />
     </div>
   </section>
 
@@ -47,15 +47,15 @@
     <div class="row">
       <div class="subject-col">
         <h2>Matématica</h2>
-        <img src="./v2-website/src/assets/images/math-subject.svg" alt="Image de uma pessoa estundando matematica" />
+        <img src="./v2-website/images/math-subject.svg" alt="Image de uma pessoa estundando matematica" />
       </div>
       <div class="subject-col">
         <h2>Geografia</h2>
-        <img src="./v2-website/src/assets/images/geography-subject.svg" alt="Mapa das americas" />
+        <img src="./v2-website/images/geography-subject.svg" alt="Mapa das americas" />
       </div>
       <div class="subject-col">
         <h2>Quimica</h2>
-        <img src="./v2-website/src/assets/images/cremistry-subject.svg" alt="Image de uma quimica" />
+        <img src="./v2-website/images/chemistry-subject.svg" alt="Image de uma quimica" />
       </div>
     </div>
   </section>
@@ -114,17 +114,7 @@
   </footer>
 
   <!-- JavaScript -->
-  <script>
-    var navLinks = document.getElementById("navLinks");
-
-    function hideMenu() {
-      navLinks.style.right = "-200px";
-    }
-
-    function showMenu() {
-      navLinks.style.right = "0";
-    }
-  </script>
+  <script src="v2-website/scripts/script.js"></script>
 </body>
 
 </html>
