@@ -4,10 +4,9 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="A melhor plataforma para alcançar o seu objetivo academico." />
-  <link rel="stylesheet" href="v2-website/styles/index.css" />
+  <link rel="stylesheet" href="src/styles/index.css" />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
     rel="stylesheet" />
-
   <title>Estudando com Questões</title>
 </head>
 
@@ -16,7 +15,7 @@
     <nav>
       <p>.</p>
       <div class="nav-links" id="navLinks">
-        <img class="icon" src="v2-website/images/close.svg" alt="Fecha menu" onclick="hideMenu()" />
+        <img class="icon" src="src/images/close.svg" alt="Fecha menu" onclick="hideMenu()" />
         <ul>
           <li><a href="#home">INÍCIO</a></li>
           <li><a href="#subject">MATÉRIAS</a></li>
@@ -24,7 +23,7 @@
           <li><a href="#feedback">FEEDBACK</a></li>
         </ul>
       </div>
-      <img class="icon" src="./v2-website/images/menu.svg" alt="Image menu" onclick="showMenu()" />
+      <img class="icon" src="./src/images/menu.svg" alt="Image menu" onclick="showMenu()" />
     </nav>
 
     <div class="box">
@@ -33,46 +32,42 @@
         <p>Sua plataforma de estudos online.</p>
         <a href="#subject" class="hero-bnt">COMEÇAR ESTUDAR AGORA</a>
       </div>
-      <img src="v2-website/images/image-home-page.svg" />
+      <img src="src/images/image-home-page.svg" />
     </div>
   </section>
 
-  <!-- subjects -->
   <section id="subject" class="subject">
-    <h1 class="title">Matérias Disponiveis</h1>
+    <h2 class="title">Matérias Disponiveis</h2>
     <p>
       Disponibilizamos simulados que irão te ajudar evoluir. Agora escolha a
       materia que deseja começar estudar!
     </p>
     <div class="row">
-      <a href="v2-website/pages/math-questions.html">
+      <a href="src/pages/math-questions.html">
         <div class="subject-col">
-          <h2>Matématica</h2>
-          <img src="./v2-website/images/math-subject.svg" width="100%"
-            alt="Image de uma pessoa estundando matematica" />
+          <h3>Matématica</h3>
+          <img src="./src/images/math-subject.svg" width="100%" alt="Image de uma pessoa estundando matematica" />
         </div>
       </a>
 
-      <a href="v2-website/pages/geography-questions.html">
+      <a href="src/pages/geography-questions.html">
         <div class="subject-col">
-          <h2>Geografia</h2>
-          <img src="./v2-website/images/geography-subject.svg" width="100%" alt="Mapa das americas" />
+          <h3>Geografia</h3>
+          <img src="./src/images/geography-subject.svg" width="100%" alt="Mapa das americas" />
         </div>
       </a>
 
-      <a href="v2-website/pages/chemistry-questions.html">
-
+      <a href="src/pages/chemistry-questions.html">
         <div class="subject-col">
-          <h2>Quimica</h2>
-          <img src="./v2-website/images/chemistry-subject.svg" width="100%" alt="Image de uma quimica" />
+          <h3>Quimica</h3>
+          <img src="./src/images/chemistry-subject.svg" width="100%" alt="Image de uma quimica" />
         </div>
       </a>
     </div>
   </section>
 
-  <!-- about us -->
   <sectionc id="about-us" class="about-us">
-    <h1 class="title">Sobre nós</h1>
+    <h2 class="title">Sobre nós</h2>
     <p class="text-about-us">
       Somos uma equipe que decidiu desenvolver uma aplicação para melhorar a
       performace dos vestibulandos.
@@ -82,11 +77,12 @@
   <section id="feedback">
     <div class="content">
       <div class="container">
-        <div class="title">Nos deixe um feedback</div>
+        <h2 class="title">Nos deixe um feedback</h2>
+
         <form action="https://formsubmit.co/warzoneofc@gmail.com" method="POST">
           <div class="user-details">
             <input type="hidden" name="_template" value="table">
-            <input type="hidden" name="_next" value="http://127.0.0.1:5500/v2-website/src/assets/pages/success.html">
+            <input type="hidden" name="_next" value="http://127.0.0.1:5500/src/src/assets/pages/success.html">
             <!-- Aparentemente a opção de autoresponse só funciona com o captcha ativado -->
             <input type="hidden" name="_autoresponse" value="Recebemos o seu feedback, respoderemos em breve!">
             <input type="hidden" name="_captcha" value="false">
@@ -99,6 +95,8 @@
             <div class="input-box">
               <span class="details">Email</span>
               <input type="email" name="email" placeholder="Digite o seu email" required>
+              <small id="emailHelp">Nunca vamos compartilhar seu email, com
+                ninguém.</small>
             </div>
 
             <div class="input-box">
@@ -106,8 +104,6 @@
               <textarea name="feedback" id="" cols="30" rows="10" placeholder="Deixe aqui o seu feedback"
                 required></textarea>
             </div>
-
-
           </div>
           <button class="button" type="submit">Enviar</button>
         </form>
@@ -115,16 +111,13 @@
     </div>
   </section>
 
-
-  <!-- footer -->
   <footer>
     <div class="copyright">
       <p>© 2021 - Estudando com Questões</p>
     </div>
   </footer>
 
-  <!-- JavaScript -->
-  <script src="v2-website/scripts/script.js"></script>
+  <script src="src/scripts/responsive.js"></script>
 </body>
 
 </html>

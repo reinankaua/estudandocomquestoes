@@ -11,10 +11,9 @@ const showData = (data) => {
             h1.innerHTML = 'Questões de Química';
             header.appendChild(h1);
 
-            p.innerHTML = 'Aqui estão disponibilizadas algumas questões de química paro colocar o seu conhecimento em prática, e não se esqueça é estrema importância revisar o conteúdo apos um certo período de tempos. Bons estudos!'
+            p.innerHTML = 'Aqui estão disponibilizadas algumas questões de química para colocar o seu conhecimento em prática, e não se esqueça é de extrema importância rever o conteúdo após um certo tempo. Bons estudos!'
             header.appendChild(p);
         }
-
 
         var form = document.querySelector('.form');
         var title = document.createElement('h2');
@@ -49,9 +48,41 @@ const showData = (data) => {
 }
 
 
-fetch('https://api-estudandocomquestoes.herokuapp.com/quimica')
+const showCorrectResponse = (data) => {
+
+    for (let index = 0; index < data.length; index++) {
+
+        const element = data[index];
+
+        document.querySelector('#reply').innerHTML = "Gabarito das Questões";
+
+        if (element) {
+            var ol = document.querySelector('#replyCard');
+            var li = document.createElement('li');
+            li.innerHTML = `${element.correct}`;
+            ol.appendChild(li);
+        }
+        console.log(element.correct);
+    }
+}
+
+function showResponse() {
+    fetch('https://project-api-ecq.herokuapp.com/quimica')
+        .then(response => {
+            response.json()
+                .then(data => {
+                    showCorrectResponse(data);
+                })
+        })
+        .catch(error => console.error(error))
+}
+
+
+fetch('https://project-api-ecq.herokuapp.com/quimica')
     .then(response => {
         response.json()
-            .then(data => { showData(data); })
+            .then(data => {
+                showData(data);
+            })
     })
     .catch(error => console.error(error))
