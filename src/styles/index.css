@@ -5,13 +5,9 @@
   --second-color: rgb(93, 196, 96);
   --third-color: #77dd77;
   --white-color: rgb(255, 255, 255);
-
   --text-color: rgb(82, 79, 79);
-
   --nav-font-size: 0.8rem;
   --big-title-font-size: 3.875rem;
-
-  /* --default-title-font-size: ; */
   --text-font-size: 0.9rem;
 }
 
@@ -42,7 +38,6 @@ nav {
 .nav-links ul li {
   list-style: none;
   display: inline-block;
-  /* padding: 8px 12px; */
   padding: 0.5rem 0.75rem;
   position: relative;
 }
@@ -54,7 +49,6 @@ nav {
 .nav-links ul li::after {
   content: "";
   width: 0%;
-  /* height: 2px; */
   height: 0.125rem;
   background: var(--white-color);
   display: block;
@@ -68,11 +62,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-around;
-
-  /* padding-top: 1.25rem; */
   padding: 1.25rem 0.9rem 0rem 0.9rem;
-
-  /* padding-top: 20px; */
 }
 .text-box {
   width: 90%;
@@ -107,6 +97,7 @@ nav {
 nav .icon {
   display: none;
 }
+
 @media (max-width: 1024px) {
   .box > img {
     display: none;
@@ -118,6 +109,7 @@ nav .icon {
     transform: translate(-50%, -50%);
   }
 }
+
 @media (max-width: 700px) {
   .text-box h1 {
     font-size: 26px;
@@ -127,7 +119,7 @@ nav .icon {
   }
   .nav-links {
     position: absolute;
-    background: var(--third-color);
+    background: #0b660b;
     height: 100vh;
     width: 200px;
     top: 0;
@@ -146,6 +138,7 @@ nav .icon {
   .nav-links ul {
     padding: 30px;
   }
+  
 }
 
 /* subject */
@@ -214,21 +207,6 @@ a {
   padding: 25px 30px;
   border-radius: 5px;
 }
-/* .container .title{
-  font-size: 25px;
-  font-weight: 500;
-  position: relative;
-}
-
-.container .title::before{
-  content: '';
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  height: 3px;
-  width: 30px;
-  background: linear-gradient(135deg, rgb(55, 146, 61), rgb(93, 196, 96));
-} */
 .container form .user-details{
   display: flex;
   flex-wrap: wrap;
@@ -256,7 +234,6 @@ form .user-details .input-box{
   transition: all 0.3s ease;
   resize: none;
 }
-
 .user-details .input-box textarea{
   height: 80px;
   width: 97%;
@@ -271,7 +248,6 @@ form .button{
   height: 45px;
   margin: 45px 0;
 }
-
 form button{
   height: 100%;
   width: 99.7%;
@@ -287,7 +263,6 @@ form button{
 form button:hover{
   background: linear-gradient(-135deg, rgb(55, 146, 61), rgb(93, 196, 96));
 }
-
 
 /* footer */
 .about-us {
@@ -312,13 +287,22 @@ form button:hover{
   margin-top: 40px;
   margin-bottom: 10px;
 }
-/* .title {
-  padding-top: 20px;
-  padding-bottom: 20px;
-} */
 .contact {
   width: 80%;
   padding: 0;
   margin: auto;
   text-align: center;
+}
+.contact-group {
+  text-align: center;
+  justify-content: space-evenly ;
+  display: flex;
+}
+
+@media (max-width: 700px) {
+  .contact-group {
+    text-align: center;
+    justify-content: space-evenly;
+    display: inline;
+  }
 }
