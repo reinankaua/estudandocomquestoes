@@ -1,6 +1,6 @@
 > 🚀 Projeto desenvolvido para melhorar a performace dos vestibulandos, realizado para matérias do IFBA - Campus Euclides da Cunha
 
-### Screenshots Desktop
+### Algumas Screenshots
 
 <div style="display: flex; flex-direction: 'row'; align-items: 'center';">
    <div>
@@ -14,12 +14,6 @@
    
 </div>
 
-<!--- ### Screenshot Mobile
-<div style="display: flex; flex-direction: 'row'; align-items: 'center';">
-   <img src="screenshots/homepage1.png" width="400px">
-   <img src="screenshots/homepage2.png" width="400px">
-</div> -->
-
 # 💻 Tecnologias
 
 <ul>
@@ -28,29 +22,18 @@
   <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a></li>
 </ul>
 
-# 👷Como rodar localmente
+Caso você queirar deixar esse projeto com a sua cara poderá clona-lo e fazer as modificações que desejar. Siga os seguintes passos:
+
+# 👷Clonando o repositório
+
+Para clonar o ropositório você deverá utilizar o sequinte comando:
 
 ```bash
-# Clone o repositorio
-$ git clone https://github.com/reinankaua/EstudandoComQuestoes.git
+# Comando
+$ git clone https://github.com/reinankaua/aps-estudandocomquestoes.git
 ```
+Com esse comando executado o seu ambiente já estará pronto para desenvolvimento, apenas bastando abrir a pasta com o seu editor de código ou IDE favorita.
 
-### Abrindo o projeto
-
-```bash
-# Na raiz do projeto
-
-# Faça o seguinte comando para abrir o arquivo no linux
-$ xdg-open index.html
-
-
-# Faça o seguinte comando para abrir o arquivo no windows
-$ start index.html
-
-
-# Faça o seguinte comando para abrir o arquivo no mac
-$ open index.html
-```
 
 ---
 
