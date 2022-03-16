@@ -3,8 +3,15 @@
 ### Screenshots Desktop
 
 <div style="display: flex; flex-direction: 'row'; align-items: 'center';">
-   <img src="../screenshots/homepage1.png" width="400px">
-   <img src="../screenshots/homepage2.png" width="400px">
+   <div>
+      <img src="../screenshots/secao1.png" width="400px">
+      <img src="../screenshots/secao2.png" width="400px">
+   </div>
+   <div>
+      <img src="../screenshots/secao3.png" width="400px">
+      <img src="../screenshots/secao4.png" width="400px">
+   </div>
+   
 </div>
 
 <!--- ### Screenshot Mobile
